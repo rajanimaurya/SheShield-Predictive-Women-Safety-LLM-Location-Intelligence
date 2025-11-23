@@ -1,0 +1,95 @@
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .main-content {
+        padding: 15px;
+    }
+    
+    .header {
+        padding: 20px 15px;
+    }
+    
+    .logo-text {
+        font-size: 22px;
+    }
+    
+    .safety-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .time-display {
+        align-self: flex-end;
+    }
+    
+    .ai-response {
+        padding: 14px;
+    }
+    
+    .sos-btn {
+        padding: 16px 25px;
+        font-size: 15px;
+    }
+    
+    .chat-input-container {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .send-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .logo {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .ai-response {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .location-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: linear-gradient(135deg, #2c3e50, #34495e);
+    }
+    
+    .container {
+        background: #1a1a1a;
+        color: #e0e0e0;
+    }
+    
+    .safety-header h2,
+    .chat-section h3,
+    .tips-section h3 {
+        color: #e0e0e0;
+    }
+    
+    .chat-input,
+    .chat-messages {
+        background: #2d2d2d;
+        border-color: #404040;
+        color: #e0e0e0;
+    }
+    
+    .tip-card {
+        background: #2d2d2d;
+        color: #e0e0e0;
+    }
+}

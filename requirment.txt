@@ -1,0 +1,20 @@
+# Core Requirements
+selenium==4.15.0
+webdriver-manager==4.0.1
+edge-tts==6.1.5
+pygame==2.5.2
+pydub==0.25.1
+python-dotenv==1.0.0
+googletrans==3.1.0a0
+SpeechRecognition==3.10.0
+pyaudio==0.2.11
+
+# APIs & Web
+requests==2.31.0
+flask==3.0.0
+flask-cors==4.0.0
+twilio==8.13.0
+
+# Utilities
+python-dateutil==2.8.2
+pathlib2==2.3.7.post1

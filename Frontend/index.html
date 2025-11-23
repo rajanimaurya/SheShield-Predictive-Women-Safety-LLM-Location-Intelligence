@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheShield AI - Intelligent Safety Companion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-gradient"></div>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="brand">
+                    <div class="logo-glow">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="brand-text">
+                        <h1>SheShield</h1>
+                        <p>AI Safety Guardian</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="btn-icon" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="btn-icon" id="settingsBtn">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Safety Status Card -->
+            <section class="status-card glassmorphism">
+                <div class="status-header">
+                    <div class="status-title">
+                        <h2>Safety Analysis</h2>
+                        <div class="live-indicator">
+                            <span class="pulse-dot"></span>
+                            LIVE
+                        </div>
+                    </div>
+                    <div class="time-display">
+                        <i class="fas fa-clock"></i>
+                        <span id="currentTime">--:--</span>
+                    </div>
+                </div>
+
+                <div class="ai-analysis">
+                    <div class="ai-avatar pulse">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="analysis-content">
+                        <div class="analysis-header">
+                            <span class="ai-badge">AI GUARDIAN</span>
+                            <span class="confidence">98% Confidence</span>
+                        </div>
+                        <p class="analysis-text" id="aiAnalysis">
+                            Area analysis complete. Current location shows optimal safety conditions for travel.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="safety-metrics">
+                    <div class="metric">
+                        <div class="metric-value safe">9.2</div>
+                        <div class="metric-label">Safety Score</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value moderate">6.8</div>
+                        <div class="metric-label">Crime Index</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value good">85%</div>
+                        <div class="metric-label">Light Coverage</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Location Intelligence -->
+            <section class="location-card glassmorphism">
+                <div class="card-header">
+                    <h3><i class="fas fa-map-marker-alt"></i> Location Intelligence</h3>
+                    <button class="btn-refresh">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                </div>
+                
+                <div class="location-details">
+                    <div class="location-main">
+                        <div class="location-name">
+                            <h4 id="currentLocation">Rajwada, Indore</h4>
+                            <span class="location-time" id="locationTime">--:--</span>
+                        </div>
+                        <div class="location-status">
+                            <span class="status-tag safe-tag">
+                                <i class="fas fa-check-circle"></i>
+                                Secure Zone
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="location-stats">
+                        <div class="stat">
+                            <i class="fas fa-users"></i>
+                            <span>High Footfall</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Well Lit</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Police Patrol</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="safety-alerts">
+                    <div class="alert-item warning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div class="alert-content">
+                            <strong>Night Travel Advisory</strong>
+                            <p>Exercise caution after 10 PM in surrounding areas</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI Chat Interface -->
+            <section class="chat-card glassmorphism">
+                <div class="chat-header">
+                    <h3><i class="fas fa-comments"></i> Safety Assistant</h3>
+                    <div class="chat-actions">
+                        <button class="btn-voice" id="voiceBtn">
+                            <i class="fas fa-microphone"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message ai-message">
+                        <div class="message-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="message-content">
+                            <div class="message-text">
+                                Hello! I'm your AI safety assistant. Ask me about any location's safety, travel routes, or emergency procedures.
+                            </div>
+                            <div class="message-time">Just now</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <div class="input-wrapper">
+                        <input type="text" id="userInput" placeholder="Ask about safety in any area..." class="chat-input">
+                        <button class="btn-send" id="sendBtn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="quick-btn" data-query="Is MG Road safe at night?">
+                            <i class="fas fa-moon"></i>
+                            Night Safety
+                        </button>
+                        <button class="quick-btn" data-query="Safe routes to railway station">
+                            <i class="fas fa-route"></i>
+                            Safe Routes
+                        </button>
+                        <button class="quick-btn" data-query="Emergency contacts near me">
+                            <i class="fas fa-phone-alt"></i>
+                            Emergency
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Emergency Panel -->
+            <section class="emergency-panel">
+                <div class="emergency-card danger-glass">
+                    <div class="emergency-header">
+                        <i class="fas fa-life-ring"></i>
+                        <h3>Emergency Response</h3>
+                    </div>
+                    
+                    <div class="emergency-actions">
+                        <button class="btn-sos" id="sosBtn">
+                            <div class="sos-inner">
+                                <i class="fas fa-bell"></i>
+                                <span>ACTIVATE SOS</span>
+                            </div>
+                            <div class="sos-pulse"></div>
+                        </button>
+                        
+                        <div class="emergency-buttons">
+                            <button class="btn-emergency secondary">
+                                <i class="fas fa-map-marked-alt"></i>
+                                Share Live Location
+                            </button>
+                            <button class="btn-emergency secondary">
+                                <i class="fas fa-ambulance"></i>
+                                Alert Authorities
+                            </button>
+                            <button class="btn-emergency secondary">
+                                <i class="fas fa-user-shield"></i>
+                                Contact Guardians
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Safety Insights -->
+            <section class="insights-card glassmorphism">
+                <div class="insights-header">
+                    <h3><i class="fas fa-chart-line"></i> Safety Insights</h3>
+                </div>
+                <div class="insights-grid">
+                    <div class="insight-item">
+                        <div class="insight-icon safe">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="insight-content">
+                            <h4>Optimal Conditions</h4>
+                            <p>Current time and location show peak safety parameters</p>
+                        </div>
+                    </div>
+                    <div class="insight-item">
+                        <div class="insight-icon warning">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="insight-content">
+                            <h4>Area Alert</h4>
+                            <p>Increased caution advised in surrounding 2km radius</p>
+                        </div>
+                    </div>
+                    <div class="insight-item">
+                        <div class="insight-icon info">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="insight-content">
+                            <h4>Smart Routing</h4>
+                            <p>Alternative safer routes available for navigation</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Navigation -->
+        <nav class="bottom-nav">
+            <button class="nav-item active">
+                <i class="fas fa-home"></i>
+                <span>Dashboard</span>
+            </button>
+            <button class="nav-item">
+                <i class="fas fa-map"></i>
+                <span>Safety Map</span>
+            </button>
+            <button class="nav-item">
+                <i class="fas fa-shield-alt"></i>
+                <span>Guardian</span>
+            </button>
+            <button class="nav-item">
+                <i class="fas fa-user"></i>
+                <span>Profile</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/safetyEngine.js"></script>
+    <script src="js/emergencySystem.js"></script>
+</body>
+</html>
