@@ -1,7 +1,7 @@
 # SheShield – AI-Powered Women Safety & Crime Prediction App
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence?style=social)
-![License](https://img.shields.io/github/license/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence)
+![License](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/Apache%20License%202.0)
 ![Python Version](https://img.shields.io/badge/Python-3.10-blue)
 
 ---
