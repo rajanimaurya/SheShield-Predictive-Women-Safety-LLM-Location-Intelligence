@@ -71,10 +71,10 @@ SheShield/
 ```
 
 **Workflow Diagram** **:
-![Workflow Diagram](https://www.figma.com/board/Cuu3fpirZ3wix5JczPlQef/SheShield-Flowchart-Clean?node-id=0-1&t=YMoLjSErTFaMjMuL-1)
+![Workflow Diagram](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield%20Sequence%20Diagram.png?raw=true)
 
 **Architecture Diagram** **:
-![Architecture Diagram](images/SheShield Flowchart Clean.png)
+![Architecture Diagram]()
 
 ---
 
