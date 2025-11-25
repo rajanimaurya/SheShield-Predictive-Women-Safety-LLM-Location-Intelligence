@@ -1,8 +1,6 @@
 # SheShield – AI-Powered Women Safety & Crime Prediction App
 
-![GitHub Repo stars](https://img.shields.io/github/stars/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence?style=social)
-![License](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/Apache%20License%202.0)
-![Python Version](https://img.shields.io/badge/Python-3.10-blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence?style=social) ![License](https://img.shields.io/badge/License-Apache%202.0-orange.svg) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg) ![LLM](https://img.shields.io/badge/LLM-GPT4%2FLlama-brightgreen.svg) ![Location](https://img.shields.io/badge/Location_Intelligence-Here%20Maps%2FGoogle%20Maps-yellow.svg) ![Predictive](https://img.shields.io/badge/Predictive_Analytics-ML%20Models-red.svg)
 
 ---
 
@@ -72,10 +70,10 @@ SheShield/
 └─ README.md
 ```
 
-**Workflow Diagram** *(replace with actual image if needed)*:
+**Workflow Diagram** **:
 ![Workflow Diagram](https://via.placeholder.com/800x400?text=Workflow+Diagram+Placeholder)
 
-**Architecture Diagram** *(replace with actual image if needed)*:
+**Architecture Diagram** **:
 ![Architecture Diagram](https://via.placeholder.com/800x400?text=Architecture+Diagram+Placeholder)
 
 ---
@@ -182,11 +180,3 @@ For **educational & research purposes only**. Deployment in real scenarios must 
 
 ---
 
-## 🖼️ Screenshots / GIFs
-
-*Replace these placeholders with actual screenshots/GIFs*
-
-![App Screenshot](https://via.placeholder.com/600x400?text=App+Screenshot+Placeholder)
-![Alert Example](https://via.placeholder.com/600x400?text=Alert+GIF+Placeholder)
-![Workflow](https://via.placeholder.com/600x400?text=Workflow+GIF+Placeholder)
-![Architecture](https://via.placeholder.com/600x400?text=Architecture+Diagram+Placeholder)
