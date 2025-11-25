@@ -4,13 +4,12 @@
 
 <div align="center">
 
-![SheShield Logo](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/Safety%20for%20Girls%20Logo%20Design.png?raw=true)
+<img src="https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/Safety%20for%20Girls%20Logo%20Design.png?raw=true" width="100">
 
-**AI-Powered Women Safety with Predictive Analytics & Real-time Protection**
+**AI-Powered Women Safety**  
+*Predictive Analytics & Real-time Protection*
 
 </div>
-
----
 
 ## 🚀 Project Overview
 
