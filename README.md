@@ -74,7 +74,7 @@ SheShield/
 ![Workflow Diagram](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield%20Sequence%20Diagram.png?raw=true)
 
 **Architecture Diagram** **:
-![Architecture Diagram]()
+![Architecture Diagram](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield%20Flowchart%20Clean.png?raw=true)
 
 ---
 
