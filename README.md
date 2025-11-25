@@ -2,6 +2,14 @@
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence?style=social) ![License](https://img.shields.io/badge/License-Apache%202.0-orange.svg) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg) ![LLM](https://img.shields.io/badge/LLM-GPT4%2FLlama-brightgreen.svg) ![Location](https://img.shields.io/badge/Location_Intelligence-Here%20Maps%2FGoogle%20Maps-yellow.svg) ![Predictive](https://img.shields.io/badge/Predictive_Analytics-ML%20Models-red.svg)
 
+<div align="center">
+
+![SheShield Logo](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/Safety%20for%20Girls%20Logo%20Design.png?raw=true)
+
+**AI-Powered Women Safety with Predictive Analytics & Real-time Protection**
+
+</div>
+
 ---
 
 ## 🚀 Project Overview
@@ -164,6 +172,33 @@ Recommended Action: Move to nearest well-lit area & notify emergency contacts
 * Commit with clear messages `git commit -m "Description"`
 * Submit Pull Request 🚀
 
+
+
+
+
+
+## 🏗️ System Architecture
+
+### Workflow Diagram
+![Flowchart](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield%20Flowchart%20Clean.png?raw=true)
+
+### Methodology
+![Methodology](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield_%20Methodology%20-%20visual%20selection.png?raw=true)
+
+## 📱 App Interface
+
+### App Icon
+![App Icon](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/WhatsApp%20Image%202025-11-25%20at%2010.51.14%20AM.jpeg?raw=true)
+
+### Feature Preview
+![Feature Screen](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/WhatsApp%20Image%202025-11-25%20at%2010.51.15%20AM.jpeg?raw=true)
+
+
+## 🚀 Features
+- **Predictive Risk Analysis** using Machine Learning
+- **Real-time Location Intelligence**
+- **LLM-powered Emergency Alerts**
+- **Smart Safety Notifications**
 ---
 
 ## 📧 Contact
