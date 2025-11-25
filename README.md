@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/Safety%20for%20Girls%20Logo%20Design.png?raw=true" width="100">
+<img src="https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/Safety%20for%20Girls%20Logo%20Design.png?raw=true" width="150">
 
 **AI-Powered Women Safety**  
 *Predictive Analytics & Real-time Protection*
@@ -77,13 +77,24 @@ SheShield/
 └─ README.md
 ```
 
-**Workflow Diagram** **:
-![Workflow Diagram](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield%20Sequence%20Diagram.png?raw=true)
+## 🏗️ System Architecture
 
-**Architecture Diagram** **:
-![Architecture Diagram](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield%20Flowchart%20Clean.png?raw=true)
+### Workflow Diagram
+<img src="https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield%20Flowchart%20Clean.png?raw=true" width="500">
 
----
+### Methodology
+<img src="https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield_%20Methodology%20-%20visual%20selection.png?raw=true" width="500">
+
+### Sequence Diagram
+<img src="https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield%20Sequence%20Diagram.png?raw=true" width="500">
+
+## 📱 App Interface
+
+### App Icon
+<img src="https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/WhatsApp%20Image%202025-11-25%20at%2010.51.14%20AM.jpeg?raw=true" width="300">
+
+### Feature Preview
+<img src="https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/WhatsApp%20Image%202025-11-25%20at%2010.51.15%20AM.jpeg?raw=true" width="300">
 
 ## ⚙️ Installation & Setup
 
@@ -173,24 +184,6 @@ Recommended Action: Move to nearest well-lit area & notify emergency contacts
 
 
 
-
-
-
-## 🏗️ System Architecture
-
-### Workflow Diagram
-![Flowchart](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield%20Flowchart%20Clean.png?raw=true)
-
-### Methodology
-![Methodology](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/SheShield_%20Methodology%20-%20visual%20selection.png?raw=true)
-
-## 📱 App Interface
-
-### App Icon
-![App Icon](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/WhatsApp%20Image%202025-11-25%20at%2010.51.14%20AM.jpeg?raw=true)
-
-### Feature Preview
-![Feature Screen](https://github.com/rajanimaurya/SheShield-Predictive-Women-Safety-LLM-Location-Intelligence/blob/main/images/WhatsApp%20Image%202025-11-25%20at%2010.51.15%20AM.jpeg?raw=true)
 
 
 ## 🚀 Features
