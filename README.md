@@ -71,7 +71,7 @@ SheShield/
 ```
 
 **Workflow Diagram** **:
-![Workflow Diagram](https://via.placeholder.com/800x400?text=Workflow+Diagram+Placeholder)
+![Workflow Diagram](https://www.figma.com/board/Cuu3fpirZ3wix5JczPlQef/SheShield-Flowchart-Clean?node-id=0-1&t=YMoLjSErTFaMjMuL-1)
 
 **Architecture Diagram** **:
 ![Architecture Diagram](https://via.placeholder.com/800x400?text=Architecture+Diagram+Placeholder)
